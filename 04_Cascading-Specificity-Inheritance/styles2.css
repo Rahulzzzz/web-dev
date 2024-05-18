@@ -1,0 +1,10 @@
+.html {
+    background-color: cornflowerblue;
+}
+
+/* all font related properties are inherited but exceptions are there */
+ul {
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: 700;
+}
