@@ -1,0 +1,58 @@
+/* for class sselector we use . (_Dot) */
+.html {
+  color: #dd4b25;
+}
+
+.css {
+  color: #254bdd;
+}
+
+.js {
+  color: #efd81d;
+}
+
+.react {
+  color: #09dffb;
+}
+
+.tailwind {
+  color: #4cafb4;
+}
+
+li {
+  font-weight: 700;
+}
+
+/* for id selector we use # (Hash) */
+#html {
+  font-size: 32px;
+}
+
+#css {
+  font-size: 32px;
+}
+
+#js {
+  font-size: 32px;
+}
+
+#react {
+  font-size: 32px;
+}
+
+#tailwind {
+  font-size: 32px;
+}
+
+/* for class attribute we use [] */
+[Rahul] {
+  background-color: lightpink;
+}
+
+/* psuedoselector or hover */
+h1:hover {
+  color: aquamarine;
+}
+h2:hover {
+  color: orange;
+}
