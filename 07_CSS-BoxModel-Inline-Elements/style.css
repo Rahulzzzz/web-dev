@@ -1,0 +1,40 @@
+p {
+  background-color: bisque;
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid salmon;
+  margin: 10px;
+}
+.HTML {
+  background-color: aqua;
+  padding: 10px;
+  border: 10px solid teal;
+  margin: 10px;
+}
+.CSS {
+  background-color: aqua;
+  padding: 10px;
+  border: 10px solid teal;
+  margin: 10px;
+}
+.JavaScript{
+  background-color: aqua;
+  padding: 10px;
+  border: 10px solid teal;
+  margin: 10px;
+}
+/* Here in inline elements the css box model doesn't works properly.
+Here they work in left and right and not top and bottom and they also 
+dont push away other elements rather they invade them. */
+
+/* So they are converted to block or inline block using the display
+property.Also the height and width dont work on them. */
+span {
+    display: inline-block;
+}
+/* There are 2 types of inline:
+1)Replaced Inline-> Here height and width works normally like block 
+  Ex- img,video,iframe
+2)Non Replaced Inline-> Here height and width dont work
+  Ex- a,span,em,strong,b */
