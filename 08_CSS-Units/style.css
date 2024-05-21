@@ -1,0 +1,23 @@
+body {
+    height: 400px;
+}
+
+div {
+    background-color: burlywood;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    margin: 5%;
+}
+/* 1)And for height to work in percentage we need to define its parents
+height in pixels
+   2)Padding and margin also works in percent but they take it based on
+their parents width */
+p {
+    background-color: cadetblue;
+    width:25vw ;
+    height: 25vh;
+}
+/* 1vw is equal to 1% of width of the viewport/browser */
+/* 1vh is equal to 1% of height of the viewport/browser */
+/* They are used for making responsive websites */
