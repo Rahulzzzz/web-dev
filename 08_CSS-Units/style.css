@@ -1,23 +1,51 @@
-body {
+/* body {
     height: 400px;
-}
+} */
 
-div {
+/* div {
     background-color: burlywood;
     width: 50%;
     height: 50%;
     padding: 5%;
     margin: 5%;
-}
+} */
 /* 1)And for height to work in percentage we need to define its parents
 height in pixels
    2)Padding and margin also works in percent but they take it based on
 their parents width */
-p {
+/* p {
     background-color: cadetblue;
     width:25vw ;
     height: 25vh;
-}
+} */
 /* 1vw is equal to 1% of width of the viewport/browser */
 /* 1vh is equal to 1% of height of the viewport/browser */
 /* They are used for making responsive websites */
+body {
+    font-size: 2em;
+}
+
+div {
+    background-color: bisque;
+    width: 2em;
+    font-size: 2em;
+    padding: 1em;
+    margin: 0.5em;
+}
+/* 1)Font size is calculated on the basis of it parent fontsize
+  as here fontsize of parent is 2em it considers 1em as 32px. */
+/* 2)And rest all properties are calculated on the basis of its 
+  own inherited fontsize.As fontsize is 64px its width is 2em
+  i.e.,128px and so on... */
+  p {
+    background-color: darkslategray;
+    font-size: 5rem;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  /* 1rem is equal to 16px by default but it can be changed via 
+  giving fontsize on html tag */
+  html {
+    font-size: 10px;
+  }
+  /* So now 1rem is equal to 10px instead of default value 16px */
